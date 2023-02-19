@@ -37,7 +37,7 @@
  <section id ="inicio" class="inicio">
     <div class="contenido-banner">
         <div class="contenedor-img">
-            <img src="img/perfilPhoto - copia.jpg" alt="">
+            <img src="img/perfilPhoto - copia.jpg" alt="Imagen de perfil">
         </div>
         <h1>CAMILA GRAZIANI</h1>
         <H2>Analista de Sistemas - Contadora</H2>
@@ -312,17 +312,20 @@
         <h2>Contacto</h2>
         <div class="fila">
             <!-- Formulario -->
+            <form action="" method="post" id="form">
             <div class="col">
-                <input type="text" placeholder="Tú Nombre">
-                <input type="text" placeholder="Número telefónico">
-                <input type="text" placeholder="Dirección de correo">
-                <input type="text" placeholder="Tema">
-                <textarea name="" id="" cols="25" rows="5" placeholder="Mensaje"></textarea>
-                <button>
+                <input type="text" name="inombre" id="name" placeholder="Nombre">
+                <input type="text" name="itelefono" id="tel" placeholder="Telefono">
+                <input type="email" name="iemail" id="email" placeholder="Correo">
+                <input type="text" name="itema" id="tema" placeholder="Tema">
+                <textarea name="imensaje" id="" cols="25" rows="5" placeholder="Mensaje"></textarea>
+                <button type="submit">
                     Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                     <span class="overlay"></span>
                 </button>
+            <p class="warning" id="warning"> </p>
             </div>
+        </form>
 </section>
 
 <footer>

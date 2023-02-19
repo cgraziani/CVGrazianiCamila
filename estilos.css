@@ -12,6 +12,15 @@
     scroll-behavior: smooth;
 
  }
+.warning {
+
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #E6AA75;
+    padding-top: 20px;
+}
+
   /*MENU*/
   .contenedor-header{
     background: #F0EAE8;

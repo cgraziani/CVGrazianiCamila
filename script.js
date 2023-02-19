@@ -39,3 +39,27 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+const Nombre= document.getElementById("name")
+const Correo= document.getElementById("email")
+const Telefono= document.getElementById("tel")
+const form= document.getElementById("form")
+const parrafo= document.getElementById("warning")
+
+
+ form.addEventListener("submit", e=> {
+    e.preventDefault()
+    let warning= ""
+    let regexemail= /^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    if(Nombre.value.length <4) {
+        warning += 'El nombre es muy corto </br>'
+        entrar=true
+    }
+    console.log(regexemail.test(email.value))
+    if (!regexemail.test(email.value)){
+        warning += 'El email es incorrecto </br>'
+        entrar=true
+}
+}
+
+     )
+    
