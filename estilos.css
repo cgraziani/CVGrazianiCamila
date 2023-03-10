@@ -664,12 +664,10 @@ footer .arriba{
         margin-left: 20px;
     }
 
-
     .contacto .fila{
         display: block;
-    }
-    .contacto .fila .col{
-        width: 100%;
+        margin: 0 auto;
+         width: 60%;
     }
 }
 
